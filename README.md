@@ -21,4 +21,4 @@ O **Bolo-Plus** é um projeto Full Stack desenvolvido para gerenciar receitas de
 4. Abra o arquivo `index.html` no navegador.
 
 ---
-Desenvolvido por [Seu Nome Completo Aqui] 👩‍💻
+Desenvolvido por Aryanne Menezes Ribeiro 👩‍💻
