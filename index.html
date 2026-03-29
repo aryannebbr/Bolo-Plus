@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoloPlus - Receitas Gourmet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><i class="fas fa-birthday-cake"></i> BoloPlus</div>
+        <ul class="nav-links">
+            <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
+            <li><a href="#secao-cadastro"><i class="fas fa-plus-circle"></i> Cadastrar</a></li>
+            <li><a href="https://google.com" target="_blank"><i class="fas fa-question-circle"></i> Ajuda</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Portal do Bolo</h1>
+        <p>Descubra o sabor da felicidade em cada fatia</p>
+        <div class="search-container">
+            <input type="text" id="input-busca" placeholder="🔍 Pesquisar bolo pelo nome...">
+        </div>
+    </header>
+
+    <section class="form-container" id="secao-cadastro">
+        <h2><i class="fas fa-utensils"></i> Nova Receita</h2>
+        <form id="form-bolo">
+            <input type="text" id="nome" placeholder="Nome do Bolo" required>
+            <div class="form-row">
+                <input type="text" id="tempo" placeholder="Tempo (ex: 45 min)" required>
+                <input type="text" id="dificuldade" placeholder="Dificuldade" required>
+            </div>
+            <input type="url" id="imagem" placeholder="URL da Imagem" required>
+            <textarea id="descricao" placeholder="Conte-nos sobre essa delícia..." required></textarea>
+            <button type="submit"><i class="fas fa-save"></i> Salvar no Livro</button>
+        </form>
+    </section>
+
+    <section class="sugestao-container">
+        <div class="sugestao-card" id="sugestao-chef">
+            <h3><i class="fas fa-magic"></i> Está sem ideia hoje?</h3>
+            <p>Clique abaixo para uma sugestão aleatória do nosso Chef Global!</p>
+            <button onclick="buscarReceitaAleatoria()" id="btn-sugestao">
+                <i class="fas fa-random"></i> Me surpreenda!
+            </button>
+        </div>
+    </section>
+
+    <hr class="divisor">
+
+    <main class="container" id="receitas-container"></main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "nome": "Bolo de Cenoura com Chocolate",
+    "tempoPreparo": "45 minutos",
+    "dificuldade": "Fácil",
+    "imagem": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80",
+    "descricao": "Um clássico fofinho com cobertura de brigadeiro.",
+    "fixo": true
+  },
+  {
+    "id": 2,
+    "nome": "Bolo Red Velvet",
+    "tempoPreparo": "1 hora e 20 minutos",
+    "dificuldade": "Média",
+    "imagem": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=500&q=80",
+    "descricao": "Bolo aveludado vermelho com recheio de cream cheese.",
+    "fixo": true
+  },
+  {
+    "id": 3,
+    "nome": "Bolo de Milho Cremoso",
+    "tempoPreparo": "50 minutos",
+    "dificuldade": "Fácil",
+    "imagem": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&q=80",
+    "descricao": "Bolo tradicional de milho, perfeito para o café da tarde.",
+    "fixo": true
+  }
+]

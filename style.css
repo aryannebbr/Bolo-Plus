@@ -1,0 +1,39 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
+
+body { font-family: 'Poppins', sans-serif; background-color: #fdf8f5; margin: 0; color: #4a3728; scroll-behavior: smooth; }
+
+/* Navbar */
+.navbar { display: flex; justify-content: space-between; align-items: center; background-color: #3d1f11; padding: 15px 8%; color: white; position: sticky; top: 0; z-index: 1000; }
+.logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: #f39c12; }
+.nav-links { display: flex; gap: 25px; list-style: none; padding: 0; margin: 0; }
+.nav-links a { color: white; text-decoration: none; font-size: 0.9rem; transition: 0.3s; }
+.nav-links a:hover { color: #f39c12; }
+
+/* Header */
+header { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1535141192574-5d48bb7af09b?w=1200&q=80'); background-size: cover; background-position: center; color: white; text-align: center; padding: 80px 20px; border-radius: 0 0 50px 50px; }
+header h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin: 0; }
+#input-busca { width: 90%; max-width: 500px; padding: 15px 25px; border-radius: 30px; border: none; margin-top: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); outline: none; }
+
+/* Formulário */
+.form-container { max-width: 600px; margin: -40px auto 40px; background: white; padding: 30px; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); }
+#form-bolo { display: flex; flex-direction: column; gap: 15px; }
+.form-row { display: flex; gap: 15px; }
+.form-row input { flex: 1; }
+input, textarea { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 10px; background: #f9f9f9; box-sizing: border-box; outline: none; }
+button { background: linear-gradient(to right, #d2691e, #ff8c00); color: white; border: none; padding: 15px; border-radius: 12px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+
+/* Sugestão API Externa */
+.sugestao-container { max-width: 600px; margin: 20px auto; padding: 0 20px; }
+.sugestao-card { background: #fff; border: 2px dashed #d2691e; border-radius: 20px; padding: 25px; text-align: center; }
+.receita-externa { animation: fadeIn 0.5s ease-in; display: flex; flex-direction: column; align-items: center; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.divisor { width: 80%; border: 0; border-top: 1px solid #ddd; margin: 40px auto; }
+
+/* Cards */
+.container { display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; padding: 20px; }
+.card { background: white; width: 300px; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.05); transition: 0.4s; }
+.card img { width: 100%; height: 200px; object-fit: cover; }
+.card-content { padding: 20px; }
+.badge { background: #fff4e6; color: #d2691e; padding: 4px 10px; border-radius: 15px; font-size: 0.75rem; font-weight: bold; margin-right: 5px; }
+.btn-excluir { background: #fff0f0; color: #ff4757; border: 1px solid #ff4757; margin-top: 15px; width: 100%; padding: 8px; border-radius: 8px; cursor: pointer; }
