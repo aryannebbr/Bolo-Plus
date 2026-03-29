@@ -19,3 +19,6 @@ O **Bolo-Plus** é um projeto Full Stack desenvolvido para gerenciar receitas de
 2. Instale as dependências: `npm install`
 3. Inicie o servidor: `node servidor.js`
 4. Abra o arquivo `index.html` no navegador.
+
+---
+Desenvolvido por [Seu Nome Completo Aqui] 👩‍💻
